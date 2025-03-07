@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.container {
+  @apply w-[95%] mx-auto;
+}
+
+.footer {
+  @apply h-[3rem] bg-blue-500 text-white text-center flex justify-center place-items-center;
+}
+
+.header {
+  @apply min-h-[3rem] bg-blue-500 text-white flex place-items-center;
+}
+
+.body {
+  @apply h-[calc(100vh-6rem)];
+}
